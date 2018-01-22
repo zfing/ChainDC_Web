@@ -1,0 +1,148 @@
+.main-logoMan{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.main-logoMan>div{
+    display: inline-block;
+}
+.addNewIcon{
+    color:gray;
+    font-weight: bold;
+    font-size: 15px;
+    /*cursor: pointer;*/
+    position: relative;
+}
+
+.addNewIconImg:hover{
+    color:red;
+    cursor: pointer;
+}
+.addNewIconBox{
+    padding: 20px 30px;
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    background: #f1f1f1;
+    /*display: none;*/
+    /*width: 300px;*/
+    /*height: 130px;*/
+    text-align: center;
+    left: 0;
+    display: none;
+}
+.addNewIconUpload{
+    padding: 20px 30px;
+    position: absolute;
+    z-index: 10;
+    right: -327px;
+    top: -65px;
+    background: #f1f1f1;
+    /*display: none;*/
+    /*width: 300px;*/
+    /*height: 130px;*/
+    text-align: center;
+    display: none;
+}
+.addNewImgArrow{
+    position: absolute;
+    top:-30px;
+    z-index: 80;
+    border-top:15px solid transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #f1f1f1;
+}
+.addNewIconArrow{
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    margin-top: -8px;
+    border-top:15px solid transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid #f1f1f1;
+    border-bottom: 15px solid transparent;
+}
+.NewIconName{
+    width: 253px;
+    font-size: 16px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.NewIconName::-webkit-input-placeholder{
+    font-size: 14px;
+}
+.IconNameImg{
+    position: relative;
+}
+.NewIconImg{
+    position: absolute;
+    left: 0;
+    height: 30px;
+    opacity: 0;
+}
+.NewIconUpload{
+    border: 1px solid #c1c1c1;
+    line-height: 30px;
+    color:deepskyblue;
+}
+.NewIconOperation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.NewIconOperation input{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color:#fff;
+}
+.NewIconOperation input:first-child{
+    background: gray;
+}
+.NewIconOperation input:last-child{
+    background: mediumpurple;
+}
+.logoCounts{
+    margin-top: 20px;
+    background: #fff;
+    width: 70%;
+}
+.logoCounts thead{
+    line-height: 40px;
+}
+.logoCountsTitle,.logoCountsContent{
+    display: flex;
+}
+.logoCountsTitle>th,.logoCountsContent>td{
+    flex: 1;
+}
+.logoCountsContent{
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+}
+.logoCountsContent:hover{
+    background:#f1f1f1;
+}
+.logoCountsContent img{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+.logoOperation span a,.logoOperation span{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #556367;
+}
+.logoOperation span a:hover,.logoOperation span:hover{
+    color:green;
+    text-decoration:underline;
+}
+
+

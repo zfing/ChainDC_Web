@@ -1,0 +1,146 @@
+
+/*评估模型下拉菜单*/
+/* 下拉按钮样式 */
+.ratingDrop {
+    color: white;
+    border: none;
+    cursor: pointer;
+    line-height: 60px;
+}
+/* 容器 <div> - 需要定位下拉内容 */
+.wl-header-links__link--rating {
+    position: relative;
+    display: inline-block;
+}
+/* 下拉内容 (默认隐藏) */
+.ratingContent {
+    background-color: #eeeeee;
+    padding-left:10px;
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+.ratingBox{
+    display: none;
+    position: absolute;
+    background-color: #eeeeee;
+    z-index: 80;
+    padding:0;
+    width: 160px;
+    left: -30px;
+    top: 60px;
+}
+.ratingContent li{
+    padding: 10px;
+    border-bottom: 1px solid #d4d4d4;
+}
+.ratingContent li:hover a{
+    color:green;
+}
+.ratingContent li:last-child{
+    border: none;
+}
+/* 下拉菜单的链接 */
+.ratingContent a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+}
+.ratingArrow{
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #eeeeee;
+    left: 50%;
+    margin-left: -10px;
+    top: -20px;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+/*.ratingContent li:hover{
+    background-color: #f2dede;
+}*/
+
+/* 在鼠标移上去后显示下拉菜单 */
+.wl-header-links__link--rating:hover .ratingBox {
+    display: block;
+}
+
+@media only screen and (max-width:768px){
+    .wl-header-links__link--rating:hover .ratingBox {
+        display: block;
+        top:0;
+        left: -170px;
+    }
+    .ratingArrow{
+        display: block;
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top: 10px solid transparent;
+        border-left: 10px solid #eee;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        top: 50%;
+        margin-top: -35px;
+        left: 105%;
+    }
+}
+
+/*gu1*/
+.growUp{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+
+.growUp ul li,.growUp p{
+    line-height: 30px;
+}
+.growUp ul li{
+    list-style: disc;
+}
+.growUpMain{
+    background: #fff;
+    padding: 50px;
+}
+.growUpTitle{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.structureImg .gu1Title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.structureImg .gu1Title span{
+    padding: 10px;
+    border-bottom:1px solid #ddd;
+}
+.structureImg p:nth-child(1){
+    font-weight: bold;
+}
+.gu1Title{
+    color:gray;
+}
+.structureImg img{
+    width: 100%;
+}
+.structureImg hr{
+    border-top:1px solid #ddd;
+}
+.ratingPro,.ratingTeam,.performance,.ratingMarket,.ratingRisk{
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.ratingHot{
+    padding: 10px 0;
+}
+.ratingTeam,.performance,.ratingMarket,.ratingRisk,.ratingHot{
+    margin-top: 20px;
+}

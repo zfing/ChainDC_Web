@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="never">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <title><?= $data['title']; ?></title>
+    <link rel="shortcut icon" href="__PUBLIC__/Home/images/titlelogo.icon"  type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/router.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/interNotice.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/ratingModel.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/wechat.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/wechat2.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/wechat3.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/Home/js/router.js"></script>
+    <script src="__PUBLIC__/Home/js/interNotice.js"></script>
+    <style>
+        @media only screen and (max-width: 768px) {
+            iframe{
+                width:100% !important;
+                height:auto !important;
+            }
+        }
+        iframe{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<!--最近的两个div是不够一屏时撑满一屏（css有样式）-->
+<div class="warpCon" style="min-height:100%;background: #eaeaea;">
+    <div class="mainCon">
+        <include file="Public/menu"/>
+        <div class="wl-layout">
+            <!--私有变化内容区域-->
+            <div class="main_IN">
+                <div class="container">
+                    <div class="main_inter_notice">
+                        <div class="article">
+                            <div class="articleHeader">
+                                <div class="articleTitles">
+                                    <span class="articleTitle"><?= $data['title'];?></span>
+                                </div>
+                                <div class="articleAdditional">
+                                    <span class="articleTime"><?= date('Y-m-d H:i',$data['add_time']); ?></span>
+                                    <div class="articleReaders">
+                                        <span class="readCounts"><?= $data['click']; ?></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articleCon">
+                                <!--请求生成，不管-->
+                                <?= html_entity_decode($data['content']); ?>
+                            </div>
+                        </div>
+                      <!--  <div class="noticeAds col-lg-3 col-md-3 hidden-sm hidden-xs">
+                            <div class="proNotice">
+                                <div class="noticeTitle">
+                                    <div class="interviewSplit">
+                                        <div class="allProsSplit"></div>
+                                        <span>公告</span>
+                                    </div>
+                                    <span class="InterviewMore">更多&gt;&gt;</span>
+                                </div>
+                                <div class="noticeCon">
+                                    &lt;!&ndash;动态创建&ndash;&gt;
+                                </div>
+                            </div>
+                            &lt;!&ndash;<div class="interAd">&ndash;&gt;
+                                &lt;!&ndash;<a href="#">&ndash;&gt;
+                                    &lt;!&ndash;<img src="__PUBLIC__/Home/images/VNImg/video.jpg" alt="我是广告图">&ndash;&gt;
+                                &lt;!&ndash;</a>&ndash;&gt;
+                            &lt;!&ndash;</div>&ndash;&gt;
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--SPA替换标签-->
+        <include file="Public/model"/>
+    </div>
+</div>
+<include file="Public/footer"/>
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

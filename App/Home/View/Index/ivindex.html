@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <title>现场专访</title>
+    <link rel="shortcut icon" href="__PUBLIC__/Home/images/titlelogo.icon"  type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/router.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/interview.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/ratingModel.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/Home/js/router.js"></script>
+    <script src="__PUBLIC__/Home/js/interview.js"></script>
+</head>
+<body>
+<div class="warpCon" style="min-height:100%;background: #eaeaea;">
+    <div class="mainCon">
+        <include file="Public/menu"/>
+        <div class="wl-layout">
+            <!--私有变化内容区域-->
+            <div class="INCon">
+                <div class="container">
+                    <div class="main_inter">
+                        <div class="inters">
+                            <!--<div class="inters col-lg-9 col-md-9 col-sm-12 col-xs-12">-->
+                            <div class="main-inters-title">
+                                <div class="main-interSplit">
+                                    <div class="interSplit"></div>
+                                    <span>深度专访</span>
+                                </div>
+                            </div>
+                            <div class="main-inters-con">
+                                <ul class="main-interviewCon">
+                                    <!--动态创建-->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--<div class="interAds col-lg-3 col-md-3 hidden-sm hidden-xs">-->
+                            <!--<div class="interAd">-->
+                                <!--<a href="#">-->
+                                    <!--<img src="__PUBLIC__/Home/images/VNImg/video.jpg" alt="我是广告图">-->
+                                <!--</a>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--SPA替换标签-->
+        <include file="Public/model"/>
+    </div>
+</div>
+<!--footer-->
+<include file="Public/footer"/>
+</body>
+</html>

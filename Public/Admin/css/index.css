@@ -1,0 +1,388 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,button,textarea,p,th,td { margin:0; padding:0; }
+/*header*/
+html,body{
+    height: 100%;
+}
+.projectUpload{
+    background: #e8e8e8;
+    padding:50px;
+}
+.wl-header{
+    line-height: 80px;
+    display: flex;
+    background-color: #161616;
+}
+.wl-header div{
+    display: inline-block;
+}
+.manage-user-login span,.manage-user-toggle span{
+    cursor: pointer;
+}
+.manage-headerLeft{
+    width: 200px;
+    text-align: center;
+}
+.manage-logo img{
+    width: 130px;
+    height: 36px;
+    vertical-align: middle;
+}
+.manage-headerRight{
+    background-color: #202225;
+    flex: 1;
+    padding: 0 50px;
+}
+
+.manage-title{
+    color: #939393;
+    font-size: 18px;
+    font-family: 'MicrosoftYaHei';
+}
+.manage-user{
+    float: right;
+    font-size: 18px;
+    color: #8c9191;
+    position: relative;
+}
+.manage-user-login{
+    text-align: center;
+}
+.manage-user-login img{
+    vertical-align: middle;
+    width: 34px;
+    height: 34px;
+}
+.manage-user .split{
+    width: 1px;
+    height: 18px;
+    background: #44484e;
+    position: absolute;
+    top: 50%;
+    margin-top:-9px;
+}
+.manage-user-login,.manage-user-toggle{
+    width: 150px;
+}
+.manage-user-toggle{
+    text-align: center;
+}
+
+
+/*main左侧导航*/
+.wl-main{
+    display: flex;
+}
+.wl-main>div{
+    /*display: inline-block;*/
+    float: left;
+}
+.main-nav a{
+    display: block;
+    text-decoration: none;
+
+}
+.main-nav{
+    width: 200px;
+    background-color: #161616;
+    height:inherit;
+}
+.TabNav span{
+    color: #363f40;
+}
+.main-nav li{
+    padding: 0 35px;
+    font-size: 16px;
+    text-align: left;
+    list-style: none;
+    line-height: 60px;
+}
+.main-nav li img{
+    vertical-align: middle;
+}
+/*此样式暂用，要做点击效果使用*/
+.navStyle{
+    border-left: 2px solid  #068ab8;
+    background-color: #23262a;
+}
+.navStyle span{
+    color: #f1f1f1 ;
+}
+
+
+.main-content{
+    flex: 1;
+    background: #e8e8e8;
+    padding: 50px;
+}
+
+/* -添加项目- 的分页css*/
+.main-container{
+    width: 100%;
+    height: 100%;
+}
+.main-container-title{
+    font-family: 'MicrosoftYaHei';
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    color: #202225;
+}
+
+/*main-container-top*/
+.main-container-top,.main-container-bottom{
+    padding: 0 10px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 16px 0 rgba(32, 34, 37, 0.08);
+    margin-top: 20px;
+}
+.main-container-bottom{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.main-container-top>div,.main-container-bottom>div{
+    padding: 0 50px;
+    line-height: 88px;
+    border-bottom: 1px solid #f1f1f1;
+
+}
+.main-container-top>div:nth-last-child(1){
+    border-bottom:none;
+}
+
+.main-container-top span,.main-container-bottom .project-titleName,.socialLink{
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 85px;
+    display: inline-block;
+    text-align: right;
+}
+
+.proName,.currency,.introduction,.allName{
+    outline: none;
+    /*border:none;*/
+    font-size: 14px;
+}
+/*更换logo*/
+#preview,#preview1{
+    display: inline-block;
+}
+#preview img,.fileInputContainer,#preview1 img,.fileInputContainer{
+    vertical-align: middle;
+}
+#imghead{
+    width:36px;
+    height:36px;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+}
+
+
+.fileInputContainer{
+    height:22px;
+    background:url(../images/indexImg/file.png);
+    position:relative;
+    width: 68px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.fileInput{
+    width: 130px;
+    position:absolute;
+    right:0;
+    top:0;
+    opacity: 0;
+    filter:alpha(opacity=0);
+    cursor:pointer;
+}
+
+.main-project-logoBox,.main-project-type div{
+    display: inline-block;
+}
+.main-project-type label,.main-project-hot label,.main-project-risk label,.main-project-potential label,.main-project-deepRating label,.RatingStatus label{
+    display: inline-block;
+    margin-right: 20px;
+    color: #4d555d;
+    cursor: pointer;
+    outline: 0;
+    outline: none;
+}
+.main-project-type label:hover,.main-project-hot label:hover,.main-project-risk label:hover,.main-project-potential label:hover,.main-project-deepRating label:hover,.RatingStatus label:hover{
+    color:green;
+    transform: scale(1.1);
+
+}
+.main-project-type input,.main-project-hot input,.main-project-risk input,.main-project-potential input,.main-project-deepRating input,.RatingStatus input{
+    display: none;
+}
+.proStyleCss{
+    color:red !important;
+    font-weight:bold;
+    display: inline !important;
+    border:1px solid red !important;
+}
+
+/*main-container-bottom*/
+.main-container-bottom>div:last-child{
+    border-bottom: none;
+}
+.container-bottom-right{
+    display: inline-block;
+}
+.main-project-ratingBook .upload{
+    background-color: #10c5e9;
+    font-weight: bold;
+    font-size: 14px;
+    color:#fff;
+    position: relative;
+    width: 110px;
+    border-radius: 4px;
+    border: solid 1px #e3e3e3;
+    margin-right: 20px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+}
+.uploadInput{
+    position: absolute;
+    width: 110px;
+    height:40px;
+    left: 0;
+    opacity: 0;
+}
+.main-project-ratingBook .upload span{
+    margin-left: 15px;
+}
+.main-project-ratingBook .upload img{
+    position: absolute;
+    width: 12px;
+    height: 14px;
+    top:50%;
+    margin-top: -7px;
+    left: 15px;
+}
+.ratingBook-operation{
+    display: inline-block;
+    line-height: 14px;
+}
+.operation{
+    display: inline-block;
+    width: 30px;
+    font-size: 14px;
+    height: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+.ratingBook-operation span:nth-of-type(1){
+    color: #10c5e9;
+}
+.ratingBook-operation span:nth-of-type(2){
+    color: #51b33f;
+}
+.ratingBook-operation span:nth-of-type(3){
+    color: #d94747;
+}
+
+.operation-split{
+    width: 1px;
+    height: 12px;
+    background: #e3e3e3;
+    display: inline-block;
+    margin:0 10px;
+}
+.marketValue,.curPrice,.estimatePrice{
+    font-size:14px;
+    outline: none;
+    /*border:none;*/
+}
+.PriceImg{
+    vertical-align: middle;
+}
+.Exchange,.social{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.ExchangeBox,.socialBox{
+    display: inline;
+    font-size:0;
+}
+.linkAddress,.socialLinkAddress{
+    font-size: 16px;
+}
+.ExchangeLink{
+    width: 21px;
+    height: 21px;
+    vertical-align: middle;
+}
+.addExchange,.addSocial{
+    border-radius: 4px;
+    background-color: #ffffff;
+    height: 40px;
+    width: 100px;
+    border:1px solid #e3e3e3;
+    outline:none;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+.deleteExchange,.deleteSocial{
+    /*display: inline-block;*/
+    height: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-top: -12px;
+}
+
+.Exchange .linkFocus,.socialFocus{
+    width: 200px;
+}
+.Exchange .edit{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.project-info-operation{
+    height: 100px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 16px 0 rgba(32, 34, 37, 0.08);
+    padding: 0 60px;
+}
+.project-info-operation input{
+    margin-top: 20px;
+    width: 208px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #d4d4d4;
+    border:none;
+    font-family: 'MicrosoftYaHei';
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+.project-info-operation a{
+    display: inline-block;
+}
+.project-info-operation a input:first-child{
+    background-color: #d4d4d4;
+}
+.project-info-operation input:last-child{
+    background-color: #10c5e9;
+}
+.info-operation{
+    display: inline-block;
+}
+.project-info-operation>span{
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 85px;
+    display: inline-block;
+    text-align: right;
+}

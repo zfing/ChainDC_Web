@@ -1,0 +1,762 @@
+[ 2018-01-22T16:00:29+08:00 ] 183.63.92.250 /index.php/Admin/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+NOTIC: [2] Declaration of Admin\Model\ShowModel::_after_insert(&$data, $options) should be compatible with Think\Model::_after_insert($data, $options) /var/www/html/App/Admin/Model/ShowModel.class.php 第 4 行.
+NOTIC: [2] Declaration of Admin\Model\ShowModel::_after_update(&$data, $options) should be compatible with Think\Model::_after_update($data, $options) /var/www/html/App/Admin/Model/ShowModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `currency_show` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate /var/www/html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `currency_show` WHERE `currency_name` = 'QASH' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `currency_show` WHERE `currency` = 'qash' LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: auto /var/www/html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate /var/www/html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `currency_show` WHERE `currency_name` = 'QASH' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `currency_show` WHERE `currency` = 'qash' LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: auto /var/www/html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: exchange /var/www/html/App/Admin/Controller/AdminController.class.php 第 79 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/App/Admin/Controller/AdminController.class.php 第 79 行.
+NOTIC: [8] Undefined index: exchange /var/www/html/App/Admin/Controller/AdminController.class.php 第 87 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /var/www/html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x /var/www/html/ThinkPHP/Library/Think/Image/Driver/Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y /var/www/html/ThinkPHP/Library/Think/Image/Driver/Gd.class.php 第 270 行.
+SQL: INSERT INTO `currency_show` (`currency_name`,`project_name`,`currency`,`introduction`,`ishot`,`risk_score`,`assessment`,`emarket`,`logo_path`,`thumb_path`) VALUES ('QASH','','qash','暂无','4','4','F','0','2018-01-22/5a659a1cd3891.png','2018-01-22/thumb_5a659a1cd3891.png') [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+
+[ 2018-01-22T16:00:32+08:00 ] 183.63.92.250 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+NOTIC: [2] Declaration of Admin\Model\ShowModel::_after_insert(&$data, $options) should be compatible with Think\Model::_after_insert($data, $options) /var/www/html/App/Admin/Model/ShowModel.class.php 第 4 行.
+NOTIC: [2] Declaration of Admin\Model\ShowModel::_after_update(&$data, $options) should be compatible with Think\Model::_after_update($data, $options) /var/www/html/App/Admin/Model/ShowModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `currency_show` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `currency_show` ORDER BY currency_id desc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `currency_assessment` [ RunTime:0.0018s ]
+SQL: SELECT `p_id` FROM `currency_assessment`  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `currency_interview` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `currency_interview` ORDER BY iv_id desc  [ RunTime:2.2971s ]
+NOTIC: [2] Declaration of Admin\Model\NoticModel::_before_update($options) should be compatible with Think\Model::_before_update(&$data, $options) /var/www/html/App/Admin/Model/NoticModel.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `currency_notic` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `currency_notic` ORDER BY no_id desc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `currency_logo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `currency_logo`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 165 行.
+NOTIC: [8] Undefined index: price_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 166 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 173 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 174 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 188 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 165 行.
+NOTIC: [8] Undefined index: price_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 166 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 173 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 174 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 188 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 165 行.
+NOTIC: [8] Undefined index: price_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 166 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 173 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 174 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 188 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 165 行.
+NOTIC: [8] Undefined index: price_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 166 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 173 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 174 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 188 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined variable: res /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 315 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2018-01-22T16:02:20+08:00 ] 183.63.92.250 /index.php/Admin/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+NOTIC: [2] Declaration of Admin\Model\ShowModel::_after_insert(&$data, $options) should be compatible with Think\Model::_after_insert($data, $options) /var/www/html/App/Admin/Model/ShowModel.class.php 第 4 行.
+NOTIC: [2] Declaration of Admin\Model\ShowModel::_after_update(&$data, $options) should be compatible with Think\Model::_after_update($data, $options) /var/www/html/App/Admin/Model/ShowModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `currency_show` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate /var/www/html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `currency_show` WHERE `currency_name` = 'DGB' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `currency_show` WHERE `currency` = 'digibyte' LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: auto /var/www/html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate /var/www/html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `currency_show` WHERE `currency_name` = 'DGB' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `currency_show` WHERE `currency` = 'digibyte' LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: auto /var/www/html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: exchange /var/www/html/App/Admin/Controller/AdminController.class.php 第 79 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/App/Admin/Controller/AdminController.class.php 第 79 行.
+NOTIC: [8] Undefined index: exchange /var/www/html/App/Admin/Controller/AdminController.class.php 第 87 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /var/www/html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x /var/www/html/ThinkPHP/Library/Think/Image/Driver/Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y /var/www/html/ThinkPHP/Library/Think/Image/Driver/Gd.class.php 第 270 行.
+SQL: INSERT INTO `currency_show` (`currency_name`,`project_name`,`currency`,`introduction`,`ishot`,`risk_score`,`assessment`,`emarket`,`logo_path`,`thumb_path`) VALUES ('DGB','digibyte','digibyte','暂无','4','4','F','0','2018-01-22/5a659a8c313fb.png','2018-01-22/thumb_5a659a8c313fb.png') [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+
+[ 2018-01-22T16:02:26+08:00 ] 183.63.92.250 /index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+NOTIC: [2] Declaration of Admin\Model\ShowModel::_after_insert(&$data, $options) should be compatible with Think\Model::_after_insert($data, $options) /var/www/html/App/Admin/Model/ShowModel.class.php 第 4 行.
+NOTIC: [2] Declaration of Admin\Model\ShowModel::_after_update(&$data, $options) should be compatible with Think\Model::_after_update($data, $options) /var/www/html/App/Admin/Model/ShowModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `currency_show` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `currency_show` ORDER BY currency_id desc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `currency_assessment` [ RunTime:0.0021s ]
+SQL: SELECT `p_id` FROM `currency_assessment`  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/App/Admin/Controller/AdminController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `currency_interview` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `currency_interview` ORDER BY iv_id desc  [ RunTime:3.3547s ]
+NOTIC: [2] Declaration of Admin\Model\NoticModel::_before_update($options) should be compatible with Think\Model::_before_update(&$data, $options) /var/www/html/App/Admin/Model/NoticModel.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `currency_notic` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `currency_notic` ORDER BY no_id desc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `currency_logo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `currency_logo`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000387s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 165 行.
+NOTIC: [8] Undefined index: price_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 166 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 173 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 174 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 188 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 165 行.
+NOTIC: [8] Undefined index: price_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 166 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 173 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 174 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 188 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 165 行.
+NOTIC: [8] Undefined index: price_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 166 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 173 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 174 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 188 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 165 行.
+NOTIC: [8] Undefined index: price_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 166 行.
+NOTIC: [8] Undefined index: last_updated /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 173 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 174 行.
+NOTIC: [8] Undefined index: market_cap_cny /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 188 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined index: project_type /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 149 行.
+NOTIC: [8] Undefined variable: res /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 315 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/App/Runtime/Cache/Admin/733743670daa568cabf38de33bbf3c08.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+

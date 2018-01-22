@@ -1,0 +1,142 @@
+/*顶部单页切换*/
+.wl-rating,.wl-aboutUs,.wl-services{
+    display: none;
+    padding: 12px 0 20px 0;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+.wl-block{
+    padding: 35px 0;
+}
+.wl-container{
+    box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #e7ebee;
+    color: #4d555d;
+    background: #fff;
+}
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.wl_title{
+    color: #000;
+    font-size: 24px;
+    padding-bottom: 6px;
+    margin-top: 30px;
+    text-align: center;
+}
+@media only screen and (min-width: 992px)
+{
+    .wl-section {
+        padding-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .wl-container{
+        padding:0 20px;
+    }
+}
+@media only screen and (min-width: 768px)
+{
+    .wl-section {
+        padding-bottom: 30px;
+    }
+}
+.smartICO{
+    width: 100%;
+}
+.SmartICOBox{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.wl-section-info{
+    color: #4d555d;
+    font-size: 16px;
+}
+.wl-section-info h4 {
+    color: #000;
+    font-weight: bold;
+}
+.wl-section-info_introduce tr td:nth-child(2){
+    text-align: center;
+    width: 30%;
+}
+.wl-section-info_introduce{
+    border-collapse:separate;
+    border-spacing:0 18px;
+}
+.wl-section-info_introduce tr,.wl-section-info_introduce tr:hover{
+    background: none;
+}
+.wl-wl-table {
+    margin-top: 10px;
+    width: 100%;
+}
+.wl-wl-table__head {
+    background-color: #f2f2f2;
+    color: #727272;
+    font: bold 10px 'RobotoBold', sans-serif;
+    text-transform: uppercase;
+}
+.wl-description-table {
+    margin-top: 12px;
+}
+.wl-description-table td {
+    padding: 10px 10px 10px 0;
+    vertical-align: top;
+}
+@media only screen and (min-width: 768px)
+{
+    .wl-description-table--level {
+        width: 24%;
+    }
+}
+.wl-description-table--level {
+    font-weight: bold;
+}
+.wl-description-note {
+    color: #999;
+    font-style: italic;
+    line-height: 21px;
+}
+.wl-opinion {
+    color: #575757;
+    line-height: 21px;
+}
+.wl-opinion-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.wl-opinion-content:before,.wl-opinion-content:after {
+    border: solid #979797;
+    border-width: 1px 0 0 0;
+    content: '';
+    display: block;
+    margin-left: 4px;
+    width: 50%;
+}
+.wl-opinion-list {
+    padding-left: 20px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.wl-description-table tr,.wl-description-table tr:hover{
+    background-color: #fff;
+}
+
+.wl-list__item {
+    margin-bottom: 5px;
+}
+.wl-about {
+    padding: 10px 0;
+}
+.wl-about-paragraph {
+    color: #999;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+

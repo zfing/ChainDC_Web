@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>未来链项目详情</title>
+    <link rel="shortcut icon" href="__PUBLIC__/Home/images/titlelogo.icon"  type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/index.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/router.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/pages.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/ratingModel.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/wechat.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/wechat2.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/wechat3.css">
+
+</head>
+<body>
+
+<div class="wl-layout" style="min-height:100%;background: #eaeaea;">
+    <div class="mainCon">
+        <include file="Public/menu"/>
+
+        <!--每条数据的分页替换模板-->
+        <div class="wl-project-pages">
+            <div class="container">
+                <div class="wl-project-pages_mainPart">
+                    <div class="project-pages_mainPart_top">
+                        <div class="project-pages_mainPart_top_left">
+                            <div class="projectLogo">
+                                <img src="<?= C('READ_PATH').$result['logo_path'];?>" alt="">
+                            </div>
+                            <div class="projectName"><?= $result['currency_name'];?></div>
+                        </div>
+
+                        <div class="project-pages_mainPart_top_right">
+                            <div class="projectGrade">
+                                <span class="projectDeepGrade">深度评级 ：</span>
+                                <span class="projectGrade-"><?= $result['assessment'];?></span>
+                            </div>
+                            <!--<div class="projectUpLode">-->
+                                <!--<img src="__PUBLIC__/Home/images/download.png" alt="">-->
+                                <!--<span>下载完整报告</span>-->
+                            <!--</div>-->
+                        </div>
+
+                    </div>
+                    <div class="pages_mainPart_bottom">
+                        <table>
+                            <th>总&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;览</th>
+
+                            <!--<tr>-->
+                            <!--<td>项目类型：</td>-->
+                            <!--<td><?php if($result['project_type']==1){echo "上层应用";}elseif($result['project_type']==2){echo "协议层";}else{echo "底层系统";}?></td>-->
+                            <!--</tr>-->
+                            <tr>
+                                <td>风险评分：</td>
+                                <td><?php if($result['risk_score']==1){echo "高";}elseif($result['risk_score']==2){echo "中";}else{echo "低";}?></td>
+                            </tr>
+                            <tr>
+                                <td>投资潜力：</td>
+                                <td><?= $result['multiple'];?>倍</td>
+                            </tr>
+                            <tr>
+                                <td>市 值：</td>
+                                <td><?= number_format($result['market'],1,'.',',');?>亿</td>
+                            </tr>
+                            <tr>
+                                <td>摘 要：</td>
+                                <td><?= $result['introduction']; ?></td>
+                            </tr>
+                            <tr>
+                                <td>成 立：</td>
+                                <td><?= $result['set_up']; ?></td>
+                            </tr>
+                            <tr>
+                                <td>官 网：</td>
+                                <td><a href="http://<?= $result['web'];?>"><?= $result['web'];?></a></td>
+                            </tr>
+                            <!--<tr>-->
+                                <!--<td>社交链接：</td>-->
+                                <!--<td>-->
+                                    <!--&lt;!&ndash;<a href="#"><img src="__PUBLIC__/Home/images/twitter-icon.png" alt="" class="linksImg"></a>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<a href="#"><img src="__PUBLIC__/Home/images/twitter-icon.png" alt="" class="linksImg"></a>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<a href="#"><img src="__PUBLIC__/Home/images/twitter-icon.png" alt="" class="linksImg"></a>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<a href="#"><img src="__PUBLIC__/Home/images/twitter-icon.png" alt="" class="linksImg"></a>&ndash;&gt;-->
+                                <!--</td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td>交 易 所：</td>-->
+                                <!--<td>-->
+                                    <!--&lt;!&ndash;<a href="#"><img src="__PUBLIC__/Home/images/golos.png" alt="" class="linksImg"></a>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<a href="#"><img src="__PUBLIC__/Home/images/golos.png" alt="" class="linksImg"></a>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<a href="#"><img src="__PUBLIC__/Home/images/golos.png" alt="" class="linksImg"></a>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<a href="#"><img src="__PUBLIC__/Home/images/golos.png" alt="" class="linksImg"></a>&ndash;&gt;-->
+                                <!--</td>-->
+                            <!--</tr>-->
+                        </table>
+                    </div>
+                </div>
+
+                <div class="wl-project-pages_introduce">
+                    <div class="project-pages_introduce_tabBox">
+                        <div class="project-pages_introduce_tab project-pages_introduce_tab_active">项目详情</div>
+                        <!--<div class="project-pages_introduce_tab" >应用场景</div>-->
+                        <!--<div class="project-pages_introduce_tab" >技术概要</div>-->
+                        <!--<div class="project-pages_introduce_tab" >团队介绍</div>-->
+                    </div>
+                    <div class="project-pages_introduce_contentTotal">
+                        <div class="project-pages_introduce_content project-pages_introduce_content-details">
+                            <!--<div class="project-pages_introduce_content-details_top">-->
+                            <!--<div class="row">-->
+                            <!--<div class="col-md-2"><p>特点：</p></div>-->
+                            <!--<div class="col-md-7">-->
+                            <!--<p>—B2BX cryptocurrency流动性的聚合器边际交易,交易与实物交割和流动性分布的经纪公司。</p>-->
+                            <!--<p>—B2BX将只关注机构客户:股市和crypto-exchanges,外汇和DMA经纪人,cryptocurrency经纪人和交换机、对冲基金和其他专业的市场参与者。</p>-->
+                            <!--<p>—所有的参与者将由交易所和金融监管机构控制。</p>-->
+                            <!--<p>—B2BX将提供评级的经纪人和作为瓜拉</p>-->
+                            <!--</div>-->
+                            <!--<div class="col-md-3"></div>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="project-pages_introduce_content-details_bottom">-->
+                            <!--<div class="row">-->
+                            <!--<div class="col-md-2"></div>-->
+                            <!--<div class="col-md-7">-->
+                            <!--<p>最新消息</p>-->
+                            <!--<table>-->
+                            <!--<tr>-->
+                            <!--<td class="project-pages_introduce_content-details_bottom_tdImg"><img src="__PUBLIC__/Home/images/sonm.png" alt=""></td>-->
+                            <!--<td>-->
+                            <!--<p>Crystal Clear Services@crystal clear services</p>-->
+                            <!--<p>Another exchange have listed @CCS_Crystal CCT token! CCT tokens now tradable on https://t.co/mUcKDYCrLI exchange https://t.co/e96zR3qUWF</p>-->
+                            <!--<p>Sep 19</p>-->
+                            <!--</td>-->
+                            <!--<td><img src="__PUBLIC__/Home/images/twitter-icon.png" alt=""></td>-->
+                            <!--</tr>-->
+                            <!--</table>-->
+                            <!--</div>-->
+                            <!--<div class="col-md-3"></div>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <?= html_entity_decode($result['d_assessment']);?>
+                        </div>
+                        <div class="project-pages_introduce_content project-pages_introduce_content-scene"><?= $result['scene'];?></div>
+                        <div class="project-pages_introduce_content project-pages_introduce_content-general"><?= $result['general'];?></div>
+                        <div class="project-pages_introduce_content project-pages_introduce_content-team"><?= $result['team'];?></div>
+                    </div>
+                </div>
+
+                <!--pages foot-->
+                <!-- <div class="wl-project-pages_foot">
+                     <div class="container">
+                         <span>免责声明:</span>链调查是一家区块链第三方评级机构，链调查的评估仅供教育的目的,不是法律或金融的建议。与这些项目有关的任何问题将与链调查无关。感谢您使用链调查。
+                     </div>
+                 </div>-->
+            </div>
+        </div>
+        <!--SPA替换标签-->
+        <include file="Public/model"/>
+    </div>
+</div>
+<!--footer-->
+<include file="Public/footer"/>
+<!--modal-->
+<div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span  aria-hidden="true" class="modal_close">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Get Rating</h4>
+                <div class="modal-title-subtitle">make an enquiry</div>
+            </div>
+
+            <div class="modal-body">
+                <form class="modal_form" data-h5-instanceid="2" novalidate="novalidate" action="#" method="post">
+                    <div class="modal_row">
+                        <label class="modal_label">Startup name/website
+                            <div class="modal_required"></div>
+                        </label>
+                        <input type="text" name="name" required="required" class="modal_input ui-state-error h5-active" ></div>
+                    <div class="modal_row">
+                        <label class="modal_label">Contact person
+                            <div class="modal_required"></div>
+                        </label>
+                        <input type="text" name="person" required="required" class="modal_input"></div>
+                    <div class="modal_row">
+                        <label class="modal_label">Email
+                            <div class="modal_required"></div>
+                        </label>
+                        <input type="email" name="email" required="required" class="modal_input"></div>
+                    <div class="modal_row">
+                        <label class="modal_label">Enquiry
+                            <div class="modal_required"></div>
+                        </label>
+                        <textarea rows="6" name="enquiry" placeholder="What are you interested in ?" required="required" class="modal_textarea"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="modal-btn btn btn-primary">提交</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/Home/js/router.js"></script>
+<script src="__PUBLIC__/Home/js/index.js"></script>
+<script src="__PUBLIC__/Home/js/pages.js"></script>

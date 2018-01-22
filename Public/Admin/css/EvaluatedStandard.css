@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+.main-container-title{
+    font-family: 'MicrosoftYaHei';
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    color: #202225;
+}
+.Standard-project{
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 16px 0 rgba(32, 34, 37, 0.08);
+    padding:40px 50px;
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+}
+
+.Standard-project>span{
+    align-items:center;
+    display:flex;
+}
+.project-textType{
+    font-family: 'MicrosoftYaHei';
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #4d555d;
+    display: inline-block;
+}
+.project-typeBorder{
+    font-size: 14px;
+    font-weight: normal;
+    background:#10c5e9;
+    width: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    height: 14px;
+    vertical-align: middle;
+}
+
+.Standard-project-typeSet{
+    margin-left: 50px;
+    flex: 1;
+}
+
+
+.Standard-project-typeSet,.project-selectSet,.project-operationSet{
+    display: inline-block;
+}
+
+.project-selectSet>input{
+    font-family: 'MicrosoftYaHei';
+    font-size: 14px;
+    text-align: center;
+    color: #4d555d;
+    padding: 10px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: solid 1px #e3e3e3;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.Standard-project-typeSet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-operationSet>span{
+    font-size: 14px;
+    text-align: center;
+    color: #c1c1c1;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.project-operationSet>span img{
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
+    border-radius: 1px;
+}
+
+.Standard-project-add{
+    display: flex;
+    justify-content:center;
+}
+.project-addStandard{
+    display: inline-block;
+    font-family: 'MicrosoftYaHei';
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #10c5e9;
+    cursor: pointer;
+}
+.project-addStandard>img{
+    margin-right: 10px;
+}
+.wl-project-logo .logoManage{
+    text-align: center;
+    font-size: 14px;
+}
+.wl-project-logo .logoManage span a{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: #556367;
+}
+.wl-project-logo .logoManage span a:hover{
+    color: green;
+    text-decoration:underline;
+}

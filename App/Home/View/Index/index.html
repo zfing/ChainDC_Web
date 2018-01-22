@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="链调查,未来链,区块链,广州未来链">
+    <meta name="description" content="链调查——专业的区块链评级机构,客观、公正、科学、可信赖的区块链项目专业评级机构">
+    <title>链调查——专业的区块链评级机构</title>
+    <link rel="shortcut icon" href="__PUBLIC__/Home/images/titlelogo.icon"  type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/index.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/router.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/ratingModel.css">
+</head>
+<body>
+<div class="warpCon" style="min-height:100%;background: #eaeaea;">
+    <div class="mainCon">
+        <div class="wl-layout">
+            <include file="Public/menu"/>
+            <!--main-->
+            <div class="wl-content">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="container ratingBtn">
+                                <img src="__PUBLIC__/Home/images/headerImg/lunbo1.jpg" alt="...">
+                                <div id="modalButton" class="btn-lg" data-toggle="modal" data-target="#myModal"></div>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container">
+                                <img src="__PUBLIC__/Home/images/headerImg/lunbo1.jpg" alt="...">
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container">
+                                <img src="__PUBLIC__/Home/images/headerImg/lunbo1.jpg" alt="...">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="wl-layout-container container">
+                    <div class="wl-projects row">
+                        <!--tab-->
+                        <div class="tab-lists col-lg-9 col-md-9">
+
+                            <div class="row searchBox">
+                                <!--小屏显示-->
+                                <!-- <div class="visible-xs-block">
+                                     <div class="wl-project-tabs">
+                                         <div class="tab_nav wl-project-tab js-projects-tab active" >所有项目</div>
+                                         &lt;!&ndash;<div class="tab_nav wl-project-tab js-projects-tab" >即将开始</div>&ndash;&gt;
+                                         &lt;!&ndash;<div class="tab_nav wl-project-tab js-projects-tab" >未评估</div>&ndash;&gt;
+                                         &lt;!&ndash;<div class="tab_nav wl-project-tab js-projects-tab" >诈骗</div>&ndash;&gt;
+                                     </div>
+                                 </div>-->
+                                <div class="allPros">
+                                    <div class="allProsSplit"></div>
+                                    <span>所有项目</span>
+                                </div>
+                                <div class="wl-project-filter">
+                                        <span class="select2 select2-container select2-container--wl select2-container--below">
+                                            <span class="selection">
+                                                <span class="select2-selection select2-selection--single">
+                                                    <span class="select2-selection__rendered" title="search">
+                                                        <span class="select2-selection__placeholder">按名称搜索</span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            <!--点击搜索的下拉框集合-->
+                                            <span style="display: none" class="select_box">
+                                                <span class="search_options_box">
+                                                    <span class="search_input">
+                                                        <input type="search" class="search_input_focus">
+                                                    </span>
+                                                    <span class="search_results">
+                                                        <ul class="select-results_options">
+                                                        <?php foreach($result as $value){ ?>
+                                                            <li class="select-results_option" id="<?= $value['currency_id']; ?>">
+                                                                <input type="hidden" value="<?= $value['d_a']; ?>">
+                                                                <div class="search-result_item">
+                                                                    <div class="search-result_item_logo" style="background-image: url('<?= C('READ_PATH').$value['logo_path']; ?>')"></div>
+                                                                    <div class="search-result_item_text">
+                                                                        <div class="search-result_item_text-name">{: $value['currency_name']}</div>
+                                                                        <div class="search-result_item_text-category">{: $value['introduction']}</div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <?php } ?>
+                                                            <!--<li class="select-results_option">-->
+                                                            <!--<div class="search-result_item">-->
+                                                            <!--<div class="search-result_item_logo" style="background-image: url('__PUBLIC__/Home/images/taas.png')"></div>-->
+                                                            <!--<div class="search-result_item_text">-->
+                                                            <!--<div class="search-result_item_text-name">afsfas</div>-->
+                                                            <!--<div class="search-result_item_text-category">searchTextCategory</div>-->
+                                                            <!--</div>-->
+                                                            <!--</div>-->
+                                                            <!--</li>-->
+
+                                                        </ul>
+                                                    </span>
+
+                                                </span>
+                                            </span>
+                                        </span>
+                                </div>
+
+                                <!--大屏显示-->
+                                <!--         <div class="col-sm-8 hidden-xs">
+                                             <div class="wl-project-tabs" style="font-size:0">
+                                                 <div class="tab_nav wl-project-tab js-projects-tab active" >所有项目</div>
+                                                 &lt;!&ndash;<div class="tab_nav wl-project-tab js-projects-tab" >即将开始</div>&ndash;&gt;
+                                                 &lt;!&ndash;<div class="tab_nav wl-project-tab js-projects-tab" >未评估</div>&ndash;&gt;
+                                                 &lt;!&ndash;<div class="tab_nav wl-project-tab js-projects-tab" >诈骗</div>&ndash;&gt;
+                                             </div>
+                                         </div>-->
+
+                            </div>
+
+                            <div class="tab-list">
+                                <!--<h2>已评估项目</h2>-->
+                                <table class="wl-projects-table">
+                                    <thead class="wl-projects-table__head">
+
+                                    <tr class="wl-projects-table__row">
+                                        <th class="wl-projects-table__name-info js-sort-table" data-sort="name">项目名称</th>
+                                        <!--<th class="wl-projects-table__info js-sort-table" data-sort="hype">类型</th>-->
+                                        <th class="wl-projects-table__info js-sort-table hot_risk hidden-xs" data-sort="risk" >热度</th>
+                                        <th class="wl-projects-table__info js-sort-table hot_risk hidden-xs" >风险</th>
+                                        <th class="wl-projects-table__info js-sort-table depth" data-sort="depth">深度评估</th>
+                                        <th class="js-sort-table projects_prices" >当前价格</th>
+                                        <th class="js-sort-table projects_prices hidden-xs" title="当前市值">当前市值</th>
+                                        <th class="js-sort-table projects_prices hidden-xs" title="预估半年市值">预估市值</th>
+                                        <th class="js-sort-table projects_prices priceChange hidden-xs" title="涨幅(24H)" style="text-align: center">涨幅</th>
+                                        <th class="wl-projects-table__info wl-projects-table__investment-info js-sort-table" data-sort="potential" title="预估半年潜力">预估潜力</th>
+                                        <!--<th class="">交易所</th>-->
+                                    </tr>
+                                    </thead>
+                                    <tbody class="wl-projects-table__body1">
+                                    <!--动态创建-->
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!--分页容器-->
+                            <div class="pagination-nick"></div>
+                        </div>
+                        <!--大屏显示专访栏等-->
+                        <div class="InterviewNotice col-lg-3 col-md-3 hidden-xs hidden-sm">
+                            <!--专访栏-->
+                            <div class="proInterview">
+                                <div class="interviewTitle">
+                                    <div class="interviewSplit">
+                                        <div class="allProsSplit"></div>
+                                        <span>深度专访</span>
+                                    </div>
+                                    <span class="InterviewMore">更多&gt;&gt;</span>
+                                </div>
+                                <div class="interviewCon interviewConL">
+                                    <ul class="interFather1">
+                                        <!--动态创建-->
+
+                                    </ul>
+                                    <!--动态创建-->
+                                    <!--<ul>
+                                        <li class="interviewCon1">
+                                            <img src="__PUBLIC__/Home/images/VNImg/video.jpg" alt="">
+                                            <span>专访未来链CEO王大炮</span>
+                                            <p>我们将推出一系列挂机你知道不知道的东西反正有用就行啦啦啦啦阿拉啊啊</p>
+                                        </li>
+                                        <li class="interviewCon2">
+                                            <img src="__PUBLIC__/Home/images/VNImg/video_pic.jpg" alt="">
+                                            <span>专访未来链CEO王大炮</span>
+                                            <p>我们将推出一系列挂机你知道不知道的东西反正有用就行啦啦啦啦阿拉啊啊</p>
+                                        </li>
+                                    </ul>-->
+                                </div>
+                            </div>
+                            <!--公告栏-->
+                            <!--<div class="proNotice">
+                                <div class="noticeTitle">
+                                    <div class="interviewSplit">
+                                        <div class="allProsSplit"></div>
+                                        <span>公告</span>
+                                    </div>
+                                    <span class="InterviewMore">更多&gt;&gt;</span>
+                                </div>
+                                <div class="noticeCon">
+                                    &lt;!&ndash;动态创建&ndash;&gt;
+                                    &lt;!&ndash;<ul>
+                                        <li><a href="#">链调查——客观、公正、科学、可信赖的区块链项目专业评级机构。</a></li>
+                                        <li><a href="#">链调查——客观、公正、科学、可信赖的区块链项目专业评级机构。</a></li>
+                                        <li><a href="#">链调查——客观、公正、科学、可信赖的区块链项目专业评级机构。</a></li>
+                                        <li><a href="#">链调查——客观、公正、科学、可信赖的区块链项目专业评级机构。</a></li>
+                                        <li><a href="#">链调查——客观、公正、科学、可信赖的区块链项目专业评级机构。</a></li>
+                                        <li><a href="#">链调查——客观、公正、科学、可信赖的区块链项目专业评级机构。</a></li>
+                                    </ul>&ndash;&gt;
+                                </div>
+                            </div>-->
+
+                        </div>
+                    </div>
+                    <!--平板显示专访栏等-->
+                    <div class="InterviewNotice hidden-lg hidden-md">
+                        <!--专访栏-->
+                        <div class="proInterview">
+                            <div class="interviewTitle">
+                                <div class="interviewSplit">
+                                    <div class="allProsSplit"></div>
+                                    <span>深度专访</span>
+                                </div>
+                                <span class="InterviewMore">更多&gt;&gt;</span>
+                            </div>
+                            <div class="interviewCon">
+                                <ul class="interFather2">
+                                    <!--动态创建-->
+
+                                </ul>
+                                <!--动态创建-->
+                                <!-- <ul>
+                                     <li class="interviewCon1">
+                                         <img src="__PUBLIC__/Home/images/VNImg/video.jpg" alt="">
+                                         <span>专访未来链CEO王大炮</span>
+                                         <p>我们将推出一系列挂机你知道不知道的东西反正有用就行啦啦啦啦阿拉啊啊</p>
+                                     </li>
+                                     <li class="interviewCon2">
+                                         <img src="__PUBLIC__/Home/images/VNImg/video_pic.jpg" alt="">
+                                         <span>专访未来链CEO王大炮</span>
+                                         <p>我们将推出一系列挂机你知道不知道的东西反正有用就行啦啦啦啦阿拉啊啊</p>
+                                     </li>
+                                 </ul>-->
+                            </div>
+                        </div>
+                        <!--公告栏-->
+                        <!--<div class="proNotice">
+                            <div class="noticeTitle">
+                                <div class="interviewSplit">
+                                    <div class="allProsSplit"></div>
+                                    <span>公告</span>
+                                </div>
+                                <span class="InterviewMore">更多&gt;&gt;</span>
+                            </div>
+                            <div class="noticeCon">
+                                &lt;!&ndash;动态创建&ndash;&gt;
+                                &lt;!&ndash;<ul>
+                                    <li><a href="#">链调查——客观、公正、科学、可信赖的区块链项目专业评级机构。</a></li>
+                                    <li><a href="#">链调查——客观、公正、科学、可信赖的区块链项目专业评级机构。</a></li>
+                                    <li><a href="#">链调查——客观、公正、科学、可信赖的区块链项目专业评级机构。</a></li>
+                                    <li><a href="#">链调查——客观、公正、科学、可信赖的区块链项目专业评级机构。</a></li>
+                                    <li><a href="#">链调查——客观、公正、科学、可信赖的区块链项目专业评级机构。</a></li>
+                                    <li><a href="#">链调查——客观、公正、科学、可信赖的区块链项目专业评级机构。</a></li>
+                                </ul>&ndash;&gt;
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+
+                <div class="wl-layout-block wl-links wl-links-partners">
+                    <div class="wl-layout-container container">
+                        <div class="wl-links-title">
+                            <div class="wl-links-title__text">合作伙伴</div>
+                        </div>
+                        <div class="row partner_bg">
+                            <img src="__PUBLIC__/Home/images/partner/partner.png" alt="">
+                            <a href="http://chaindc.com" class="chaindc" target="_blank"></a>
+                            <a href="https://www.achain.com" class="achain" target="_blank"></a>
+                            <a href="http://ink.one" class="ink" target="_blank"></a>
+                            <a href="http://blockspace.info" class="blockspace" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <include file="Public/model"/>
+
+    </div>
+</div>
+<include file="Public/footer"/>
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/Home/js/index.js"></script>
+<script src="__PUBLIC__/Home/js/router.js"></script>
+<script src="__PUBLIC__/Home/js/pagingfy.js"></script>
+<script src="__PUBLIC__/Home/js/interviewNotice.js"></script>
+
+<script>
+    //        定义一个分页方法，可多次调用
+    function paginationNick(opt){
+//            参数设置
+        var pager={
+            paginationBox:'',//分页容器-- 必填
+            mainBox:'',//内容盒子--必填
+            numBtnBox:'',//数字按钮盒子-- 必填
+            btnBox:'',//按钮盒子 --必填
+            ipt:'',//input class-- 必填
+            goBtn:'',//go btn class --必填
+            currentBtn:'',//当前按钮class name --必填
+
+            pageCount:50,//每页显示几条数据
+            numBtnCount:2,//当前页左右两边各多少个数字按钮
+            currentPage:0,//当前页码data-page，首屏默认值
+            maxCount:0,//ajax请求数据分成的最大页码
+            data:[]//ajax请求的数据
+        };
+        pager = $.extend(pager,opt);
+        var flag = true;//第一次获取数据
+        //请求数据页面跳转方法
+        function goPage(btn){
+            function GetData(url,ClassS) {
+                $.ajax({
+                    url:url,
+                    dataType: 'JSONP',
+                    success:function (res) {
+                        if(!flag){
+                            $('.'+ClassS).html('');
+                        }
+                        flag = false;//不是第一次获取数据了,因为已经获取过了
+                        pager.data=res.dataS;
+                        //设置ajax请求数据分成的最大页码
+                        pager.maxCount=pager.data.length % pager.pageCount ? parseInt(pager.data.length / pager.pageCount) +1 :
+                        pager.data.length / pager.pageCount;
+//                设置当前页码
+                        if(!isNaN(btn)){         //数字按钮
+                            pager.currentPage = parseInt(btn);
+                        }else{
+                            switch(btn){
+                                case 'first':
+                                    pager.currentPage=0;
+                                    break;
+                                case 'prev':
+                                    if(pager.currentPage>0){
+                                        --pager.currentPage;
+                                    }
+                                    break;
+                                case 'next':
+                                    if(pager.currentPage+1<pager.maxCount){
+                                        ++pager.currentPage;
+                                    }
+                                    break;
+                                case 'last':
+                                    pager.currentPage=pager.maxCount-1;
+                                    break;
+                            }
+                        }
+                        //创建数字按钮
+                        createNumBtn(pager.currentPage);
+                        //赋值给页码跳转输入框的value，表示当前页码
+                        $('.'+pager.btnBox+' .'+pager.ipt).val(pager.currentPage+1);
+//              内容区填充数据
+                        var arr;
+                        arr=pager.data.slice(pager.pageCount*pager.currentPage,
+                                pager.data.length - pager.pageCount*(pager.currentPage+1) > -1 ?
+                                pager.pageCount*(pager.currentPage+1) : pager.data.length);
+                        
+                        arr.forEach(function (item) {
+                            // var times = new Date().getTime(); //时间戳，备用区分类名之用
+
+                            var datas = item.data;
+
+                            var currency_id = datas.currency_id;//id
+                            var currency_name = datas.currency_name;//项目名称
+
+                            var ishot = datas.ishot;//热度 1高 2中 3低
+                            var assessment = datas.assessment;//深度评估 A B ...
+//                            console.log(assessment);
+                            var as_title = datas.as_title;//深度评估title
+                            var logo_path = datas.logo_path;//项目背景图
+                            var emarket = datas.emarket;//预估市值
+                            var risk_score = datas.risk_score;//风险 1高 2中 3低
+
+                            var exchange = datas.exchange;//交易所链接
+                            var price_cny = datas.price_cny;//当前价格
+                            var market_cap_cny = datas.market_cap_cny;//当前市值
+                            var multiple = datas.multiple;//预估潜力
+                            var last_updated = datas.last_updated;//更新时间
+                            var updown = datas.updown;//升降
+                            var d_a = datas.d_a;
+
+                            //动态创建标签
+                            $("<tr></tr>").addClass('a'+ currency_id + ' wl-projects-table__row').attr({id: currency_id}).click(function () {
+                                if(d_a == '0'){
+                                    alert('深度评估暂未开始');
+                                }else {
+                                    window.open("/index.php/Home/Index/pages/id/"+$(this).attr('id'));
+                                }
+                            }).appendTo($('.'+ClassS));
+
+                            $("<td>" + currency_name + "</td>").css({
+                                backgroundImage: logo_path,
+                                backgroundPosition:'15px'
+                            }).addClass("wl-project-name js-sort-class-name").appendTo($('.a' + currency_id));
+
+                            /*$("<td></td>").addClass('b' + currency_id + " wl-project-hypeScore js-sort-class-hype").appendTo($('.a' + currency_id));
+                            $("<div>" + project_type + "</div>").addClass("wl-project-wrapper").appendTo($('.b' + currency_id));*/
+
+                            $("<td></td>").addClass('c' + currency_id + " wl-project-riskScore js-sort-class-risk hidden-xs").appendTo($('.a' + currency_id));
+                            $("<div></div>").addClass('c0'+currency_id+" wl-project-wrapper").appendTo($('.c' + currency_id));
+                            if(ishot == '高'){
+                                $('<span>' + ishot + '</span>').css({color:'#6aa84f'}).appendTo($('.c0' + currency_id))
+                            }
+                            else if(ishot == '中'){
+                                $('<span>' + ishot + '</span>').css({color:'#e69138'}).appendTo($('.c0' + currency_id))
+                            }
+                            else if(ishot == '低'){
+                                $('<span>' + ishot + '</span>').css({color:'#cc0000'}).appendTo($('.c0' + currency_id))
+                            }
+                            else{
+                                $('<span>' + ishot + '</span>').css({color:'#000'}).appendTo($('.c0' + currency_id))
+                            }
+
+                            $("<td></td>").addClass('c1' + currency_id + " wl-project-riskScore js-sort-class-risk hidden-xs").appendTo($('.a' + currency_id));
+                            $("<div></div>").addClass('c2'+currency_id+" wl-project-wrapper").appendTo($('.c1' + currency_id));
+                            if(risk_score == '高'){
+                                $('<span>' + risk_score + '</span>').css({color:'#cc0000'}).appendTo($('.c2' + currency_id))
+                            }
+                            else if(risk_score == '中'){
+                                $('<span>' + risk_score + '</span>').css({color:'#e69138'}).appendTo($('.c2' + currency_id))
+                            }
+                            else if(risk_score == '低'){
+                                $('<span>' + risk_score + '</span>').css({color:'#6aa84f'}).appendTo($('.c2' + currency_id))
+                            }
+                            else{
+                                $('<span>' + risk_score + '</span>').css({color:'#000'}).appendTo($('.c2' + currency_id))
+                            }
+
+                            $("<td></td>").addClass('f' + currency_id + " wl-project-rating js-sort-class-depth").appendTo($('.a' + currency_id));
+                            $("<div></div>").addClass('g' + currency_id + " wl-project-wrapper").attr('title',as_title).appendTo($('.f' + currency_id));
+                            $("<div></div>").addClass('hh' + currency_id + " wl-project-rating__value").appendTo($('.g' + currency_id));
+                            if(assessment == 'A'){
+                                $('<span>' + assessment + '</span>').css({color:'#19b050'}).appendTo($('.hh' + currency_id));
+                            }
+                            else if(assessment == 'B'){
+                                $('<span>' + assessment + '</span>').css({color:'#91cf50'}).appendTo($('.hh' + currency_id));
+                            }
+                            else if(assessment == 'C'){
+                                $('<span>' + assessment + '</span>').css({color:'#ffc013'}).appendTo($('.hh' + currency_id));
+                            }
+                            else if(assessment == 'D'){
+                                $('<span>' + assessment + '</span>').css({color:'#fe6739'}).appendTo($('.hh' + currency_id));
+                            }
+                            else if(assessment == 'E'){
+                                $('<span>' + assessment + '</span>').css({color:'#ff0016'}).appendTo($('.hh' + currency_id));
+                            }
+                            else{
+                                $('<span>' + assessment + '</span>').css({color:'black',fontSize:'14px',fontWeight:'normal'}).appendTo($('.hh' + currency_id));
+                            }
+//                            $("<span>" + assessment + "</span>").appendTo($('.hh' + currency_id));
+//                            $("<div></div>").addClass("wl-project-whiteBook").appendTo($('.hh' + currency_id));
+
+
+                            $("<td></td>").addClass('i' + currency_id + " wl-project-date js-sort-class-start").appendTo($('.a' + currency_id));
+                            $("<div></div>").addClass('j' + currency_id + " wl-project-wrapper").appendTo($('.i' + currency_id));
+                            $("<div></div>").addClass('k' + currency_id + " wl-project-date__start").appendTo($('.j' + currency_id));
+                            $("<div>" + price_cny + "</div>").addClass('k1' + currency_id+" wl-project-date__value").attr({title:last_updated}).appendTo($('.k' + currency_id));
+                            // 升降放在这
+                            if(updown == '1'){
+                                $('<span> &uarr;</span>').css({color:'green'}).appendTo($('.k1' + currency_id)).delay(5000).hide(0);
+                            }
+                            if(updown == '2'){
+                                $('<span> &darr;</span>').css({color:'red'}).appendTo($('.k1' + currency_id)).delay(5000).hide(0);
+                            }
+
+                            $("<td></td>").addClass('l' + currency_id + " wl-project-date js-sort-class-end hidden-xs").appendTo($('.a' + currency_id));
+                            $("<div></div>").addClass('m' + currency_id + " wl-project-wrapper").appendTo($('.l' + currency_id));
+                            $("<div></div>").addClass('n' + currency_id + " wl-project-date__end").appendTo($('.m' + currency_id));
+                            $("<div>" + market_cap_cny + "</div>").addClass("wl-project-date__value").attr({title:last_updated}).appendTo($('.n' + currency_id));
+
+                            $("<td></td>").addClass('r' + currency_id + " wl-project-price hidden-xs").appendTo($('.a' + currency_id));
+                            $("<div></div>").addClass('r1' + currency_id + " wl-project-wrapper").appendTo($('.r' + currency_id));
+                            $("<div></div>").addClass('r2' + currency_id + " wl-project-date__end").appendTo($('.r1' + currency_id));
+                            $("<div>" + emarket + "</div>").addClass("wl-project-date__value").appendTo($('.r2' + currency_id));
+
+                            $("<td></td>").addClass('o' + currency_id + " wl-project-price hidden-xs").appendTo($('.a' + currency_id));
+                            $("<div></div>").addClass('o1' + currency_id + " wl-project-price").css({textAlign:'center',fontSize:'13px'}).appendTo($('.o' + currency_id));
+                            if(datas.percent_change_24h < '0'){
+                                $('<span>'+datas.percent_change_24h+"%"+'</span>').css({color:'red'}).appendTo($('.o1' + currency_id));
+                            }
+                            if(datas.percent_change_24h > '0'){
+                                $('<span>'+datas.percent_change_24h+"%"+'</span>').css({color:'green'}).appendTo($('.o1' + currency_id));
+                            }
+                            if(datas.percent_change_24h == null){
+                                $('<span>'+0+"%"+'</span>').css({color:'red'}).appendTo($('.o1' + currency_id));
+                            }
+
+                            $("<td></td>").addClass('d' + currency_id + " wl-project-investScore js-sort-class-potential").appendTo($('.a' + currency_id));
+                            $("<div></div>").addClass('e' + currency_id + " wl-project-wrapper").appendTo('.d' + currency_id);
+                            $("<div></div>").addClass('e1' + currency_id +" wl-project-investScore__value").appendTo($('.e' + currency_id));
+//                            $("<span>" + multiple + "</span>").appendTo($('.e1' + currency_id ));
+
+                            if(multiple >= '2.0'){
+                                $('<span>' + multiple + '</span>').css({color:'green'}).appendTo($('.e1' + currency_id ));
+                            }
+                            else if(multiple < '1.0'){
+                                $('<span>' + multiple + '</span>').css({color:'red'}).appendTo($('.e1' + currency_id ));
+                            }
+                            else if(multiple >= '1.0' && multiple < '2.0'){
+                                $('<span>' + multiple + '</span>').css({color:'black'}).appendTo($('.e1' + currency_id ));
+                            }
+                        });
+
+                        //动态创建后存在的js效果
+                        //鼠标悬停显示项目全名
+                        $('.wl-project-name').mouseover(function () {
+                            var projectNameAll = $(this).html();
+                            $(this).attr({
+                                title: projectNameAll
+                            })
+                        });
+                        //评估报告跳转
+                        $('.wl-project-whiteBook').click(function () {
+                            window.open('https://www.baidu.com/');
+                            return false;
+                        });
+                        //交易所地址跳转阻止冒泡
+                        $('.wl-project-link').click(function (e) {
+                            if (e.stopPropagation) {
+                                e.stopPropagation();
+                            }
+                            else {
+                                e.cancelBubble = true;
+                            }
+                        });
+                    },
+                    error:function () {
+//                        alert('获取数据失败')
+                    }
+                });
+            }
+            //参数1：数据地址，参数2（类名）：需要添加到哪个类名所在的tbody中
+            GetData('http://www.chaindc.com/index.php/Home/Json/getData','wl-projects-table__body1');
+        }
+        //创建非数字按钮和数据内容区
+        function createOtherBtn(){
+            $('.'+pager.paginationBox).html('<div class="'+pager.btnBox+'"><span data-page="first" class="first-btn hidden-xs">首页</span><span data-page="prev" class="prev-btn">上一页</span><div class="'+pager.numBtnBox+' hidden-xs"></div><span data-page="next" class="next-btn">下一页</span><input type="text" placeholder="页码" class="'+pager.ipt+' hidden-xs"><span class="'+pager.goBtn+' hidden-xs">搜索</span><span data-page="last" class="last-btn hidden-xs">尾页</span></div>');
+            //ipt value变化并赋值给go btn data-page
+            $('.'+pager.btnBox+' .'+pager.ipt).change(function(){
+                if(!isNaN($(this).val())){          //是数字
+                    if($(this).val() > pager.maxCount){                 //限制value最大值，跳转尾页
+                        $(this).val(pager.maxCount);
+                    }
+                    if($(this).val()<1){                  //限制value最小值，跳转首页
+                        $(this).val(1);
+                    }
+                }else{             //非数字清空value
+                    $(this).val('');
+                }
+                $('.'+pager.btnBox+' .'+pager.goBtn).attr('data-page',$(this).val() ? $(this).val()-1 : '');
+            });
+            //每个btn绑定请求数据页面跳转方法
+            $('.'+pager.btnBox+' span').each(function(i,v){
+                $(this).click(function(){
+                    //有值且不是上一次的页码时才调用
+                    if(v.getAttribute('data-page') && v.getAttribute('data-page') != pager.currentPage){
+                        goPage(v.getAttribute('data-page'));
+                    }
+                });
+            });
+        }
+        //创建数字按钮
+        function createNumBtn(page){
+            //page是页面index从0开始，这里的page加减一要注意
+            var str='';
+            if(pager.maxCount>pager.numBtnCount*2){         //若最大页码数大于等于固定数字按钮总数（pager.numBtnCount*2+1）时
+                //此页左边右边各pager.numBtnCount个数字按钮
+                if(page-pager.numBtnCount>-1){      //此页左边有pager.numBtnCount页 page页码从0开始
+                    for(var m=pager.numBtnCount;m>0;m--){
+                        str+='<span data-page="'+(page-m)+'">'+(page-m+1)+'</span>';
+                    }
+                }else{
+                    for(var k=0;k<page;k++){
+                        str+='<span data-page="'+k+'">'+(k+1)+'</span>';
+                    }
+                }
+                str+='<span data-page="'+page+'" class="'+pager.currentBtn+'" disabled="disabled">'+(page+1)+'</span>';//此页
+                if(pager.maxCount-page>3){          //此页右边有pager.numBtnCount页 page页码从0开始
+                    for(var j=1;j<pager.numBtnCount+1;j++){
+                        str+='<span data-page="'+(page+j)+'">'+(page+j+1)+'</span>';
+                    }
+                }else{
+                    for(var i=page+1;i<pager.maxCount;i++){
+                        str+='<span data-page="'+i+'">'+(i+1)+'</span>';
+                    }
+                }
+                /*数字按钮总数小于固定的数字按钮总数pager.numBtnCount*2+1时，
+                 这个分支，可以省略*/
+                if(str.match(/<\/span>/ig).length<pager.numBtnCount*2+1){
+                    str='';
+                    if(page<pager.numBtnCount){         //此页左边页码少于固定按钮数时
+                        for(var n=0;n<page;n++){            //此页左边
+                            str+='<span data-page="'+n+'">'+(n+1)+'</span>';
+                        }
+                        str+='<span data-page="'+page+'" class="'+pager.currentBtn+'" disabled="disabled">'+(page+1)+'</span>';//此页
+                        for(var x=1;x<pager.numBtnCount*2+1-page;x++){          //此页右边
+                            str+='<span data-page="'+(page+x)+'">'+(page+x+1)+'</span>';
+                        }
+                    }
+                    if(pager.maxCount-page-1<pager.numBtnCount){
+                        for(var y=pager.numBtnCount*2-(pager.maxCount-page-1);y>0;y--){         //此页左边
+                            str+='<span data-page="'+(page-y)+'">'+(page-y+1)+'</span>';
+                        }
+                        str+='<span data-page="'+page+'" class="'+pager.currentBtn+'" disabled="disabled">'+(page+1)+'</span>';             //此页
+                        for(var z=page+1;z<pager.maxCount;z++){             //此页右边
+                            str+='<span data-page="'+z+'">'+(z+1)+'</span>';
+                        }
+                    }
+                }
+            }else{
+                str='';
+                for(var n=0;n<page;n++){                //此页左边
+                    str+='<span data-page="'+n+'">'+(n+1)+'</span>';
+                }
+                str+='<span data-page="'+page+'" class="'+pager.currentBtn+'" disabled="disabled">'+(page+1)+'</span>';//此页
+                for(var x=1;x<pager.maxCount-page;x++){             //此页右边
+                    str+='<span data-page="'+(page+x)+'">'+(page+x+1)+'</span>';
+                }
+            }
+
+            $('.'+pager.numBtnBox).html(str);
+
+            //每个btn绑定请求数据页面跳转方法
+            $('.'+pager.numBtnBox+' span').each(function(i,v){
+                $(this).click(function(){
+                    goPage(v.getAttribute('data-page'));
+                });
+            });
+            //按钮禁用
+            $('.'+pager.btnBox+' span').not('.'+pager.currentBtn).attr('disabled',false);
+            if(!page){          //首页时
+                $('.'+pager.btnBox+' .first-btn').attr('disabled',true);
+                $('.'+pager.btnBox+' .prev-btn').attr('disabled','disabled');
+            }
+            if(page==pager.maxCount-1){         //尾页时
+                $('.'+pager.btnBox+' .last-btn').attr('disabled',true);
+                $('.'+pager.btnBox+' .next-btn').attr('disabled',true);
+            }
+        }
+        //首屏加载
+        createOtherBtn();//首屏加载一次非数字按钮即可
+        goPage();//请求数据页面跳转满足条件按钮点击都执行，首屏默认跳转到currentPage
+        setInterval(goPage,180000);//3分钟刷新一次*/
+    }
+    //--------------------------------------------------
+    //调用
+    paginationNick({
+        paginationBox:'pagination-nick',//分页容器--必填
+        mainBox:'main-box-nick',//内容盒子--必填
+        numBtnBox:'num-box-nick',//数字按钮盒子-- 必填
+        btnBox:'btn-box-nick',//按钮盒子 --必填
+        ipt:'page-ipt-nick',//input class-- 必填
+        goBtn:'go-btn-nick',//go btn class --必填
+        currentBtn:'active-nick'//当前按钮class name --必填
+    });
+</script>
+</html>

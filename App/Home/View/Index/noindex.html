@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>公告</title>
+    <link rel="shortcut icon" href="__PUBLIC__/Home/images/titlelogo.icon"  type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/router.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/notice.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/ratingModel.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/Home/js/router.js"></script>
+    <script src="__PUBLIC__/Home/js/notice.js"></script>
+</head>
+<body>
+<!--最近的两个div是不够一屏时撑满一屏（css有样式）-->
+<div class="warpCon" style="min-height:100%;background: #eaeaea;">
+    <div class="mainCon">
+        <include file="Public/menu"/>
+        <div class="wl-layout">
+            <!--私有变化内容区域-->
+            <div class="main_notice">
+                <div class="container">
+                    <div class="main_noticeCon">
+                        <div class="AllNotices col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                            <ul class="noticeList">
+                                <!--动态创建-->
+                            </ul>
+                        </div>
+                        <!--<div class="noticeAds col-lg-3 col-md-3 hidden-sm hidden-xs">-->
+                            <!--<div class="noticeAd">-->
+                                <!--<a href="#">-->
+                                    <!--<img src="__PUBLIC__/Home/images/VNImg/video.jpg" alt="我是广告图">-->
+                                <!--</a>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--SPA替换标签-->
+        <include file="Public/model"/>
+    </div>
+</div>
+<!--footer-->
+<include file="Public/footer"/>
+</body>
+</html>

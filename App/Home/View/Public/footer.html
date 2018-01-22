@@ -1,0 +1,65 @@
+<div class="wl-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 wl-footer-left">
+                <div class="wl-footer-about hidden-xs hidden-sm hidden-md"><a href="#/about">关于我们</a></div>
+                <!--<div><span></span></div>-->
+                <div  id="wl-footer-rating" class="wl-footer-rating hidden-xs hidden-sm hidden-md" data-toggle="modal" data-target="#myModal">申请评估</div>
+                <!--<div><span></span></div>-->
+                <div class="wl-footer-email ">邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：service@chaindc.com</div>
+                <!--<div><span></span></div>-->
+                <div class="wl-footer-discuss ">电报讨论群：<a href="https://t.me/DapaoChainGroup" target="_blank">https://t.me/DapaoChainGroup</a></div>
+                <!--<div><span></span></div>-->
+                <div class="wl-footer-notice ">电报公告群：<a href="https://t.me/DapaoChannel" target="_blank">https://t.me/DapaoChannel</a></div>
+            </div>
+            <div class="col-sm-3 wl-footer-right hidden-sm hidden-xs">
+                <span><a href="<?= U('Admin/Public/login'); ?>"> © 2016-2017 Chaindc All rights reserved</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--modal-->
+<div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span  aria-hidden="true" class="modal_close">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">获得评级</h4>
+                <div class="modal-title-subtitle">询价</div>
+            </div>
+
+            <div class="modal-body">
+                <form class="modal_form" data-h5-instanceid="2" novalidate="novalidate" action="#" method="post">
+                    <div class="modal_row">
+                        <label class="modal_label">输入名称/网站
+                            <div class="modal_required"></div>
+                        </label>
+                        <input type="text" name="title" required="required" class="modal_input ui-state-error h5-active" ></div>
+                    <div class="modal_row">
+                        <label class="modal_label">联系人
+                            <div class="modal_required"></div>
+                        </label>
+                        <input type="text" name="name" required="required" class="modal_input"></div>
+                    <div class="modal_row">
+                        <label class="modal_label">邮箱
+                            <div class="modal_required"></div>
+                        </label>
+                        <input type="email" name="email" required="required" class="modal_input"></div>
+                    <div class="modal_row">
+                        <label class="modal_label">咨询
+                            <div class="modal_required"></div>
+                        </label>
+                        <textarea rows="6" name="enquiry" placeholder="输入您感兴趣的问题" required="required" class="modal_textarea"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="modal-btn btn btn-primary">提交</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
